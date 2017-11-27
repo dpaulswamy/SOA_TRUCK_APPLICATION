@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE truck SYSTEM "trucks.dtd">
+<truck>
+	<Truck>
+	<TruckID>T101</TruckID>
+		<Make>Force</Make>
+		<Year>1991</Year>
+		<Model>Model S</Model>
+		<LicensePlateNo>LPN101</LicensePlateNo>
+		<EmployeeID>EP101</EmployeeID>
+		<Color>Grey</Color>
+		<VIN>1A2U332D092E55V101</VIN>
+	</Truck>
+	<Truck>
+		<TruckID>T102</TruckID>
+		<Make>Tata</Make>
+		<Year>2002</Year>
+		<Model>Model T</Model>
+		<LicensePlateNo>LPN102</LicensePlateNo>
+		<EmployeeID>EP102</EmployeeID>
+		<Color>Black</Color>
+		<VIN>1A2U332D092E55V102</VIN>
+	</Truck>
+	<Truck>
+		<TruckID>T103</TruckID>
+		<Make>AsokaLeyland</Make>
+		<Year>2006</Year>
+		<Model>Model U</Model>
+		<LicensePlateNo>LPN103</LicensePlateNo>
+		<EmployeeID>EP103</EmployeeID>
+		<Color>Red</Color>
+		<VIN>1A2U332D092E55V103</VIN>
+	</Truck>
+</truck>

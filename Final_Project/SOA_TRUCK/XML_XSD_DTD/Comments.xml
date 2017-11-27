@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comment SYSTEM "comments.dtd">
+<comments>
+	<Comment> 
+	<CommentID>CM101</CommentID>
+	<CommentTime>2012/10/10 02:16:57</CommentTime>
+	<CommentName>Comment101</CommentName>
+	<CustomerID>C101</CustomerID>
+	<TransactionID>TRNX101</TransactionID>
+	</Comment>
+
+	<Comment>
+	<CommentID>CM102</CommentID>
+	<CommentTime>2017/01/12 12:33:32</CommentTime>
+	<CommentName>Comment102</CommentName>
+	<CustomerID>C102</CustomerID>
+	<TransactionID>TRNX102</TransactionID>
+	</Comment>
+
+	<Comment>
+	<CommentID>CM103</CommentID>
+	<CommentTime>2016/09/02 06:36:57</CommentTime>
+	<CommentName>Comment103</CommentName>
+	<CustomerID>C103</CustomerID>
+	<TransactionID>TRNX103</TransactionID>
+	</Comment>
+</comments>

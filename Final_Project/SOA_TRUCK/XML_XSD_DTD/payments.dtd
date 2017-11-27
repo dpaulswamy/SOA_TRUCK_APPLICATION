@@ -1,0 +1,60 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT payments (Payment)+>
+<!ATTLIST payments
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Payment (PaymentID,TransactionID,OrderID,PaymentMethod,
+                   PaymentAmount,PaymentDate,CheckNumber,CreditCard,
+                   CreditCardNumber,CardholdersName,CreditCardExpDate,
+                   CreditCardAuthorizationNumber)>
+<!ATTLIST Payment
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PaymentID (#PCDATA)>
+<!ATTLIST PaymentID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TransactionID (#PCDATA)>
+<!ATTLIST TransactionID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT OrderID (#PCDATA)>
+<!ATTLIST OrderID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PaymentMethod (#PCDATA)>
+<!ATTLIST PaymentMethod
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PaymentAmount (#PCDATA)>
+<!ATTLIST PaymentAmount
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PaymentDate (#PCDATA)>
+<!ATTLIST PaymentDate
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CheckNumber (#PCDATA)>
+<!ATTLIST CheckNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CreditCard (#PCDATA)>
+<!ATTLIST CreditCard
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CreditCardNumber (#PCDATA)>
+<!ATTLIST CreditCardNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CardholdersName (#PCDATA)>
+<!ATTLIST CardholdersName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CreditCardExpDate (#PCDATA)>
+<!ATTLIST CreditCardExpDate
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CreditCardAuthorizationNumber (#PCDATA)>
+<!ATTLIST CreditCardAuthorizationNumber
+  xmlns CDATA #FIXED ''>

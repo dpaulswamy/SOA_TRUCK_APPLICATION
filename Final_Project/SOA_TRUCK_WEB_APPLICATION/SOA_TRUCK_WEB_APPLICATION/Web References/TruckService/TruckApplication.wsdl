@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://WebServices/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="TruckApplication" targetNamespace="http://WebServices/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/SOA_TRUCK/TruckApplication?xsd=1" namespace="http://WebServices/" />
+    </xsd:schema>
+  </types>
+  <message name="getInvoice">
+    <part name="parameters" element="tns:getInvoice" />
+  </message>
+  <message name="getInvoiceResponse">
+    <part name="parameters" element="tns:getInvoiceResponse" />
+  </message>
+  <message name="getExpense">
+    <part name="parameters" element="tns:getExpense" />
+  </message>
+  <message name="getExpenseResponse">
+    <part name="parameters" element="tns:getExpenseResponse" />
+  </message>
+  <message name="getEmployee">
+    <part name="parameters" element="tns:getEmployee" />
+  </message>
+  <message name="getEmployeeResponse">
+    <part name="parameters" element="tns:getEmployeeResponse" />
+  </message>
+  <message name="getInnerJoin">
+    <part name="parameters" element="tns:getInnerJoin" />
+  </message>
+  <message name="getInnerJoinResponse">
+    <part name="parameters" element="tns:getInnerJoinResponse" />
+  </message>
+  <message name="getPayment">
+    <part name="parameters" element="tns:getPayment" />
+  </message>
+  <message name="getPaymentResponse">
+    <part name="parameters" element="tns:getPaymentResponse" />
+  </message>
+  <message name="getPrice">
+    <part name="parameters" element="tns:getPrice" />
+  </message>
+  <message name="getPriceResponse">
+    <part name="parameters" element="tns:getPriceResponse" />
+  </message>
+  <message name="getLike">
+    <part name="parameters" element="tns:getLike" />
+  </message>
+  <message name="getLikeResponse">
+    <part name="parameters" element="tns:getLikeResponse" />
+  </message>
+  <message name="getComment">
+    <part name="parameters" element="tns:getComment" />
+  </message>
+  <message name="getCommentResponse">
+    <part name="parameters" element="tns:getCommentResponse" />
+  </message>
+  <message name="getTransaction">
+    <part name="parameters" element="tns:getTransaction" />
+  </message>
+  <message name="getTransactionResponse">
+    <part name="parameters" element="tns:getTransactionResponse" />
+  </message>
+  <message name="getCommentDetails">
+    <part name="parameters" element="tns:getCommentDetails" />
+  </message>
+  <message name="getCommentDetailsResponse">
+    <part name="parameters" element="tns:getCommentDetailsResponse" />
+  </message>
+  <message name="getPostalCode">
+    <part name="parameters" element="tns:getPostalCode" />
+  </message>
+  <message name="getPostalCodeResponse">
+    <part name="parameters" element="tns:getPostalCodeResponse" />
+  </message>
+  <message name="getCustomer">
+    <part name="parameters" element="tns:getCustomer" />
+  </message>
+  <message name="getCustomerResponse">
+    <part name="parameters" element="tns:getCustomerResponse" />
+  </message>
+  <message name="getInlineView">
+    <part name="parameters" element="tns:getInlineView" />
+  </message>
+  <message name="getInlineViewResponse">
+    <part name="parameters" element="tns:getInlineViewResponse" />
+  </message>
+  <message name="getPricing">
+    <part name="parameters" element="tns:getPricing" />
+  </message>
+  <message name="getPricingResponse">
+    <part name="parameters" element="tns:getPricingResponse" />
+  </message>
+  <message name="getCustomerDetails">
+    <part name="parameters" element="tns:getCustomerDetails" />
+  </message>
+  <message name="getCustomerDetailsResponse">
+    <part name="parameters" element="tns:getCustomerDetailsResponse" />
+  </message>
+  <message name="getMaxTran">
+    <part name="parameters" element="tns:getMaxTran" />
+  </message>
+  <message name="getMaxTranResponse">
+    <part name="parameters" element="tns:getMaxTranResponse" />
+  </message>
+  <message name="getAddress">
+    <part name="parameters" element="tns:getAddress" />
+  </message>
+  <message name="getAddressResponse">
+    <part name="parameters" element="tns:getAddressResponse" />
+  </message>
+  <message name="getSubQuery">
+    <part name="parameters" element="tns:getSubQuery" />
+  </message>
+  <message name="getSubQueryResponse">
+    <part name="parameters" element="tns:getSubQueryResponse" />
+  </message>
+  <message name="getCustomerLocationID">
+    <part name="parameters" element="tns:getCustomerLocationID" />
+  </message>
+  <message name="getCustomerLocationIDResponse">
+    <part name="parameters" element="tns:getCustomerLocationIDResponse" />
+  </message>
+  <message name="getTruck">
+    <part name="parameters" element="tns:getTruck" />
+  </message>
+  <message name="getTruckResponse">
+    <part name="parameters" element="tns:getTruckResponse" />
+  </message>
+  <portType name="getComment">
+    <operation name="getInvoice">
+      <input wsam:Action="http://WebServices/getComment/getInvoiceRequest" message="tns:getInvoice" />
+      <output wsam:Action="http://WebServices/getComment/getInvoiceResponse" message="tns:getInvoiceResponse" />
+    </operation>
+    <operation name="getExpense">
+      <input wsam:Action="http://WebServices/getComment/getExpenseRequest" message="tns:getExpense" />
+      <output wsam:Action="http://WebServices/getComment/getExpenseResponse" message="tns:getExpenseResponse" />
+    </operation>
+    <operation name="getEmployee">
+      <input wsam:Action="http://WebServices/getComment/getEmployeeRequest" message="tns:getEmployee" />
+      <output wsam:Action="http://WebServices/getComment/getEmployeeResponse" message="tns:getEmployeeResponse" />
+    </operation>
+    <operation name="getInnerJoin">
+      <input wsam:Action="http://WebServices/getComment/getInnerJoinRequest" message="tns:getInnerJoin" />
+      <output wsam:Action="http://WebServices/getComment/getInnerJoinResponse" message="tns:getInnerJoinResponse" />
+    </operation>
+    <operation name="getPayment">
+      <input wsam:Action="http://WebServices/getComment/getPaymentRequest" message="tns:getPayment" />
+      <output wsam:Action="http://WebServices/getComment/getPaymentResponse" message="tns:getPaymentResponse" />
+    </operation>
+    <operation name="getPrice">
+      <input wsam:Action="http://WebServices/getComment/getPriceRequest" message="tns:getPrice" />
+      <output wsam:Action="http://WebServices/getComment/getPriceResponse" message="tns:getPriceResponse" />
+    </operation>
+    <operation name="getLike">
+      <input wsam:Action="http://WebServices/getComment/getLikeRequest" message="tns:getLike" />
+      <output wsam:Action="http://WebServices/getComment/getLikeResponse" message="tns:getLikeResponse" />
+    </operation>
+    <operation name="getComment">
+      <input wsam:Action="http://WebServices/getComment/getCommentRequest" message="tns:getComment" />
+      <output wsam:Action="http://WebServices/getComment/getCommentResponse" message="tns:getCommentResponse" />
+    </operation>
+    <operation name="getTransaction">
+      <input wsam:Action="http://WebServices/getComment/getTransactionRequest" message="tns:getTransaction" />
+      <output wsam:Action="http://WebServices/getComment/getTransactionResponse" message="tns:getTransactionResponse" />
+    </operation>
+    <operation name="getCommentDetails">
+      <input wsam:Action="http://WebServices/getComment/getCommentDetailsRequest" message="tns:getCommentDetails" />
+      <output wsam:Action="http://WebServices/getComment/getCommentDetailsResponse" message="tns:getCommentDetailsResponse" />
+    </operation>
+    <operation name="getPostalCode">
+      <input wsam:Action="http://WebServices/getComment/getPostalCodeRequest" message="tns:getPostalCode" />
+      <output wsam:Action="http://WebServices/getComment/getPostalCodeResponse" message="tns:getPostalCodeResponse" />
+    </operation>
+    <operation name="getCustomer">
+      <input wsam:Action="http://WebServices/getComment/getCustomerRequest" message="tns:getCustomer" />
+      <output wsam:Action="http://WebServices/getComment/getCustomerResponse" message="tns:getCustomerResponse" />
+    </operation>
+    <operation name="getInlineView">
+      <input wsam:Action="http://WebServices/getComment/getInlineViewRequest" message="tns:getInlineView" />
+      <output wsam:Action="http://WebServices/getComment/getInlineViewResponse" message="tns:getInlineViewResponse" />
+    </operation>
+    <operation name="getPricing">
+      <input wsam:Action="http://WebServices/getComment/getPricingRequest" message="tns:getPricing" />
+      <output wsam:Action="http://WebServices/getComment/getPricingResponse" message="tns:getPricingResponse" />
+    </operation>
+    <operation name="getCustomerDetails">
+      <input wsam:Action="http://WebServices/getComment/getCustomerDetailsRequest" message="tns:getCustomerDetails" />
+      <output wsam:Action="http://WebServices/getComment/getCustomerDetailsResponse" message="tns:getCustomerDetailsResponse" />
+    </operation>
+    <operation name="getMaxTran">
+      <input wsam:Action="http://WebServices/getComment/getMaxTranRequest" message="tns:getMaxTran" />
+      <output wsam:Action="http://WebServices/getComment/getMaxTranResponse" message="tns:getMaxTranResponse" />
+    </operation>
+    <operation name="getAddress">
+      <input wsam:Action="http://WebServices/getComment/getAddressRequest" message="tns:getAddress" />
+      <output wsam:Action="http://WebServices/getComment/getAddressResponse" message="tns:getAddressResponse" />
+    </operation>
+    <operation name="getSubQuery">
+      <input wsam:Action="http://WebServices/getComment/getSubQueryRequest" message="tns:getSubQuery" />
+      <output wsam:Action="http://WebServices/getComment/getSubQueryResponse" message="tns:getSubQueryResponse" />
+    </operation>
+    <operation name="getCustomerLocationID">
+      <input wsam:Action="http://WebServices/getComment/getCustomerLocationIDRequest" message="tns:getCustomerLocationID" />
+      <output wsam:Action="http://WebServices/getComment/getCustomerLocationIDResponse" message="tns:getCustomerLocationIDResponse" />
+    </operation>
+    <operation name="getTruck">
+      <input wsam:Action="http://WebServices/getComment/getTruckRequest" message="tns:getTruck" />
+      <output wsam:Action="http://WebServices/getComment/getTruckResponse" message="tns:getTruckResponse" />
+    </operation>
+  </portType>
+  <binding name="getCommentPortBinding" type="tns:getComment">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="getInvoice">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getExpense">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getEmployee">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getInnerJoin">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getPayment">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getPrice">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getLike">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getComment">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getTransaction">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCommentDetails">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getPostalCode">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCustomer">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getInlineView">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getPricing">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCustomerDetails">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getMaxTran">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getAddress">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getSubQuery">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCustomerLocationID">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getTruck">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="TruckApplication">
+    <port name="getCommentPort" binding="tns:getCommentPortBinding">
+      <soap:address location="http://localhost:8080/SOA_TRUCK/TruckApplication" />
+    </port>
+  </service>
+</definitions>

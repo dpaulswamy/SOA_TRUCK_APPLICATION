@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE payment SYSTEM "payments.dtd">
+<payments>
+	<Payment>
+		<PaymentID>P101</PaymentID>
+		<TransactionID>TRNX101</TransactionID>
+		<OrderID>ORD101</OrderID>
+		<PaymentMethod>Card</PaymentMethod>
+		<PaymentAmount>2500</PaymentAmount>
+		<PaymentDate>2016/02/17</PaymentDate>
+		<CheckNumber>121</CheckNumber>
+		<CreditCard>Yes</CreditCard>
+		<CreditCardNumber>xxxx-xxxx-xxxx-2540</CreditCardNumber>
+		<CardholdersName>Clint Mckay</CardholdersName>
+		<CreditCardExpDate>10/20</CreditCardExpDate>
+		<CreditCardAuthorizationNumber>2345</CreditCardAuthorizationNumber>
+	</Payment>
+	<Payment>
+		<PaymentID>P102</PaymentID>
+		<TransactionID>TRNX102</TransactionID>
+		<OrderID>ORD102</OrderID>
+		<PaymentMethod>Card</PaymentMethod>
+		<PaymentAmount>3500</PaymentAmount>
+		<PaymentDate>2017/05/18</PaymentDate>
+		<CheckNumber>122</CheckNumber>
+		<CreditCard>Yes</CreditCard>
+		<CreditCardNumber>xxxx-xxxx-xxxx-2541</CreditCardNumber>
+		<CardholdersName>Matt Wade</CardholdersName>
+		<CreditCardExpDate>10/21</CreditCardExpDate>
+		<CreditCardAuthorizationNumber>2346</CreditCardAuthorizationNumber>
+	</Payment>
+	<Payment>
+		<PaymentID>P103</PaymentID>
+		<TransactionID>TRNX103</TransactionID>
+		<OrderID>ORD103</OrderID>
+		<PaymentMethod>Card</PaymentMethod>
+		<PaymentAmount>7500</PaymentAmount>
+		<PaymentDate>2017/06/09</PaymentDate>
+		<CheckNumber>123</CheckNumber>
+		<CreditCard>Yes</CreditCard>
+		<CreditCardNumber>xxxx-xxxx-xxxx-2543</CreditCardNumber>
+		<CardholdersName>Sheldon John</CardholdersName>
+		<CreditCardExpDate>10/23</CreditCardExpDate>
+		<CreditCardAuthorizationNumber>2347</CreditCardAuthorizationNumber>
+	</Payment>
+</payments>

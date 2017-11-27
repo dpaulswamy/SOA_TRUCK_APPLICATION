@@ -1,0 +1,130 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT transaction (Transaction)+>
+<!ATTLIST transaction
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Transaction (TransactionID,OrderID,priceID,TranxDate,
+                       TranxDesc,TranxAmt,Make,Model,Year,EmployeeID,
+                       TruckNo,Discount,Quantity,UnitPrice,DriverPrice,
+                       VIN,RunNumber,Special,Rate,Surcharge,Tx_priceID,
+                       Amount,Qty,Description,Tx_date,Tx_car_make,
+                       Tx_car_model,Tx_car_year,Tx_car_VIN)>
+<!ATTLIST Transaction
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TransactionID (#PCDATA)>
+<!ATTLIST TransactionID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT OrderID (#PCDATA)>
+<!ATTLIST OrderID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT priceID (#PCDATA)>
+<!ATTLIST priceID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TranxDate (#PCDATA)>
+<!ATTLIST TranxDate
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TranxDesc (#PCDATA)>
+<!ATTLIST TranxDesc
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TranxAmt (#PCDATA)>
+<!ATTLIST TranxAmt
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Make (#PCDATA)>
+<!ATTLIST Make
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Model (#PCDATA)>
+<!ATTLIST Model
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Year (#PCDATA)>
+<!ATTLIST Year
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT EmployeeID (#PCDATA)>
+<!ATTLIST EmployeeID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TruckNo (#PCDATA)>
+<!ATTLIST TruckNo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Discount (#PCDATA)>
+<!ATTLIST Discount
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Quantity (#PCDATA)>
+<!ATTLIST Quantity
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT UnitPrice (#PCDATA)>
+<!ATTLIST UnitPrice
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT DriverPrice (#PCDATA)>
+<!ATTLIST DriverPrice
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT VIN (#PCDATA)>
+<!ATTLIST VIN
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT RunNumber (#PCDATA)>
+<!ATTLIST RunNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Special (#PCDATA)>
+<!ATTLIST Special
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Rate (#PCDATA)>
+<!ATTLIST Rate
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Surcharge (#PCDATA)>
+<!ATTLIST Surcharge
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tx_priceID (#PCDATA)>
+<!ATTLIST Tx_priceID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Amount (#PCDATA)>
+<!ATTLIST Amount
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Qty (#PCDATA)>
+<!ATTLIST Qty
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Description (#PCDATA)>
+<!ATTLIST Description
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tx_date (#PCDATA)>
+<!ATTLIST Tx_date
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tx_car_make (#PCDATA)>
+<!ATTLIST Tx_car_make
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tx_car_model (#PCDATA)>
+<!ATTLIST Tx_car_model
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tx_car_year (#PCDATA)>
+<!ATTLIST Tx_car_year
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Tx_car_VIN (#PCDATA)>
+<!ATTLIST Tx_car_VIN
+  xmlns CDATA #FIXED ''>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Sat Oct 07 2017 12:40:26 GMT-0500 (Central Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="transaction">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="Transaction" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="TransactionID" type="xs:string"></xs:element>
+                                             <xs:element name="OrderID" type="xs:string"></xs:element>
+                                             <xs:element name="priceID" type="xs:string"></xs:element>
+                                             <xs:element name="TranxDate" type="xs:date"></xs:element>
+                                             <xs:element name="TranxDesc" type="xs:string"></xs:element>
+                                             <xs:element name="TranxAmt" type="xs:int"></xs:element>
+                                             <xs:element name="Make" type="xs:string"></xs:element>
+                                             <xs:element name="Model" type="xs:string"></xs:element>
+                                             <xs:element name="Year" type="xs:int"></xs:element>
+                                             <xs:element name="EmployeeID" type="xs:string"></xs:element>
+                                             <xs:element name="TruckNo" type="xs:string"></xs:element>
+                                             <xs:element name="Discount" type="xs:int"></xs:element>
+                                             <xs:element name="Quantity" type="xs:int"></xs:element>
+                                             <xs:element name="UnitPrice" type="xs:int"></xs:element>
+                                             <xs:element name="DriverPrice" type="xs:int"></xs:element>
+                                             <xs:element name="VIN" type="xs:string"></xs:element>
+                                             <xs:element name="RunNumber" type="xs:string"></xs:element>
+                                             <xs:element name="Special" type="xs:int"></xs:element>
+                                             <xs:element name="Rate" type="xs:int"></xs:element>
+                                             <xs:element name="Surcharge" type="xs:int"></xs:element>
+                                             <xs:element name="Tx_priceID" type="xs:string"></xs:element>
+                                             <xs:element name="Amount" type="xs:int"></xs:element>
+                                             <xs:element name="Qty" type="xs:int"></xs:element>
+                                             <xs:element name="Description" type="xs:string"></xs:element>
+                                             <xs:element name="Tx_date" type="xs:date"></xs:element>
+                                             <xs:element name="Tx_car_make" type="xs:string"></xs:element>
+                                             <xs:element name="Tx_car_model" type="xs:string"></xs:element>
+                                             <xs:element name="Tx_car_year" type="xs:int"></xs:element>
+                                             <xs:element name="Tx_car_VIN" type="xs:string"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

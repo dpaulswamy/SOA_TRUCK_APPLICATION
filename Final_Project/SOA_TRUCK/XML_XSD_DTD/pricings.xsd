@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Sat Oct 07 2017 12:40:07 GMT-0500 (Central Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="pricings">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="Pricing" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="priceID" type="xs:string"></xs:element>
+                                             <xs:element name="locationIDFrom" type="xs:int"></xs:element>
+                                             <xs:element name="locationIDTo" type="xs:int"></xs:element>
+                                             <xs:element name="price" type="xs:int"></xs:element>
+                                             <xs:element name="locationCodeFrom" type="xs:int"></xs:element>
+                                             <xs:element name="locationCodeTo" type="xs:int"></xs:element>
+                                             <xs:element name="locationNameFrom" type="xs:string"></xs:element>
+                                             <xs:element name="locationNameTo" type="xs:string"></xs:element>
+                                             <xs:element name="CustomerID" type="xs:string"></xs:element>
+                                             <xs:element name="type" type="xs:string"></xs:element>
+                                             <xs:element name="type1" type="xs:string"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

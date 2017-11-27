@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://WebServices/" targetNamespace="http://WebServices/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="getAddress" type="tns:getAddress" />
+  <xs:element name="getAddressResponse" type="tns:getAddressResponse" />
+  <xs:element name="getComment" type="tns:getComment" />
+  <xs:element name="getCommentDetails" type="tns:getCommentDetails" />
+  <xs:element name="getCommentDetailsResponse" type="tns:getCommentDetailsResponse" />
+  <xs:element name="getCommentResponse" type="tns:getCommentResponse" />
+  <xs:element name="getCustomer" type="tns:getCustomer" />
+  <xs:element name="getCustomerDetails" type="tns:getCustomerDetails" />
+  <xs:element name="getCustomerDetailsResponse" type="tns:getCustomerDetailsResponse" />
+  <xs:element name="getCustomerLocationID" type="tns:getCustomerLocationID" />
+  <xs:element name="getCustomerLocationIDResponse" type="tns:getCustomerLocationIDResponse" />
+  <xs:element name="getCustomerResponse" type="tns:getCustomerResponse" />
+  <xs:element name="getEmployee" type="tns:getEmployee" />
+  <xs:element name="getEmployeeResponse" type="tns:getEmployeeResponse" />
+  <xs:element name="getExpense" type="tns:getExpense" />
+  <xs:element name="getExpenseResponse" type="tns:getExpenseResponse" />
+  <xs:element name="getInlineView" type="tns:getInlineView" />
+  <xs:element name="getInlineViewResponse" type="tns:getInlineViewResponse" />
+  <xs:element name="getInnerJoin" type="tns:getInnerJoin" />
+  <xs:element name="getInnerJoinResponse" type="tns:getInnerJoinResponse" />
+  <xs:element name="getInvoice" type="tns:getInvoice" />
+  <xs:element name="getInvoiceResponse" type="tns:getInvoiceResponse" />
+  <xs:element name="getLike" type="tns:getLike" />
+  <xs:element name="getLikeResponse" type="tns:getLikeResponse" />
+  <xs:element name="getMaxTran" type="tns:getMaxTran" />
+  <xs:element name="getMaxTranResponse" type="tns:getMaxTranResponse" />
+  <xs:element name="getPayment" type="tns:getPayment" />
+  <xs:element name="getPaymentResponse" type="tns:getPaymentResponse" />
+  <xs:element name="getPostalCode" type="tns:getPostalCode" />
+  <xs:element name="getPostalCodeResponse" type="tns:getPostalCodeResponse" />
+  <xs:element name="getPrice" type="tns:getPrice" />
+  <xs:element name="getPriceResponse" type="tns:getPriceResponse" />
+  <xs:element name="getPricing" type="tns:getPricing" />
+  <xs:element name="getPricingResponse" type="tns:getPricingResponse" />
+  <xs:element name="getSubQuery" type="tns:getSubQuery" />
+  <xs:element name="getSubQueryResponse" type="tns:getSubQueryResponse" />
+  <xs:element name="getTransaction" type="tns:getTransaction" />
+  <xs:element name="getTransactionResponse" type="tns:getTransactionResponse" />
+  <xs:element name="getTruck" type="tns:getTruck" />
+  <xs:element name="getTruckResponse" type="tns:getTruckResponse" />
+  <xs:complexType name="getCommentDetails">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getCommentDetailsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getInlineView">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getInlineViewResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCustomer">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getCustomerResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPricing">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getPricingResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getExpense">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getExpenseResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getInnerJoin">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getInnerJoinResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPrice">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getPriceResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getTransaction">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getTransactionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getEmployee">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getEmployeeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getLike">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getLikeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPayment">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getPaymentResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCustomerDetails">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getCustomerDetailsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCustomerLocationID">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getCustomerLocationIDResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getTruck">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getTruckResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPostalCode">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getPostalCodeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getSubQuery">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getSubQueryResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getMaxTran">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getMaxTranResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getAddress">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getAddressResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getInvoice">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getInvoiceResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getComment">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getCommentResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

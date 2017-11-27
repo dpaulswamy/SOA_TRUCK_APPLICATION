@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Sat Oct 07 2017 12:39:11 GMT-0500 (Central Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="expenses">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="Expense" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="ExpenseID" type="xs:string"></xs:element>
+                                             <xs:element name="EmployeeID" type="xs:string"></xs:element>
+                                             <xs:element name="ExpenseType" type="xs:string"></xs:element>
+                                             <xs:element name="PurposeofExpense" type="xs:string"></xs:element>
+                                             <xs:element name="AmountSpent" type="xs:int"></xs:element>
+                                             <xs:element name="Description" type="xs:string"></xs:element>
+                                             <xs:element name="DatePurchased" type="xs:string"></xs:element>
+                                             <xs:element name="DateSubmitted" type="xs:string"></xs:element>
+                                             <xs:element name="AdvanceAmount" type="xs:int"></xs:element>
+                                             <xs:element name="PaymentMethod" type="xs:string"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

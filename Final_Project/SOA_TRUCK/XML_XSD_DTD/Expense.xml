@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Expense SYSTEM "expenses.dtd">
+<expenses>
+	<Expense>
+		<ExpenseID>E101</ExpenseID>
+		<EmployeeID>EP101</EmployeeID>
+		<ExpenseType>TruckMaintainence</ExpenseType>
+		<PurposeofExpense>fuel</PurposeofExpense>
+		<AmountSpent>700</AmountSpent>
+		<Description>vehiclefuel</Description>
+		<DatePurchased>2016/05/03</DatePurchased>
+		<DateSubmitted>2016/05/08</DateSubmitted>
+		<AdvanceAmount>300</AdvanceAmount>
+		<PaymentMethod>Cash</PaymentMethod>
+</Expense>
+	<Expense>
+		<ExpenseID>E102</ExpenseID>
+		<EmployeeID>EP102</EmployeeID>
+		<ExpenseType>TruckMaintainence</ExpenseType>
+		<PurposeofExpense>sae</PurposeofExpense>
+		<AmountSpent>6000</AmountSpent>
+		<Description>Auto</Description>
+		<DatePurchased>2015/06/25</DatePurchased>
+		<DateSubmitted>2015/06/30</DateSubmitted>
+		<AdvanceAmount>1500</AdvanceAmount>
+		<PaymentMethod>Cash</PaymentMethod>
+	</Expense>
+	<Expense>
+		<ExpenseID>E103</ExpenseID>
+		<EmployeeID>EP103</EmployeeID>
+		<ExpenseType>Employee</ExpenseType>
+		<PurposeofExpense>pay</PurposeofExpense>
+		<AmountSpent>6500</AmountSpent>
+		<Description>Sal</Description>
+		<DatePurchased>2014/09/10</DatePurchased>
+		<DateSubmitted>2014/09/26</DateSubmitted>
+		<AdvanceAmount>5000</AdvanceAmount>
+		<PaymentMethod>Card</PaymentMethod>
+	</Expense>
+</expenses>

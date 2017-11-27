@@ -1,0 +1,55 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT pricings (Pricing)+>
+<!ATTLIST pricings
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Pricing (priceID,locationIDFrom,locationIDTo,price,
+                   locationCodeFrom,locationCodeTo,locationNameFrom,
+                   locationNameTo,CustomerID,type,type1)>
+<!ATTLIST Pricing
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT priceID (#PCDATA)>
+<!ATTLIST priceID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locationIDFrom (#PCDATA)>
+<!ATTLIST locationIDFrom
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locationIDTo (#PCDATA)>
+<!ATTLIST locationIDTo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locationCodeFrom (#PCDATA)>
+<!ATTLIST locationCodeFrom
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locationCodeTo (#PCDATA)>
+<!ATTLIST locationCodeTo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locationNameFrom (#PCDATA)>
+<!ATTLIST locationNameFrom
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locationNameTo (#PCDATA)>
+<!ATTLIST locationNameTo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CustomerID (#PCDATA)>
+<!ATTLIST CustomerID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT type (#PCDATA)>
+<!ATTLIST type
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT type1 (#PCDATA)>
+<!ATTLIST type1
+  xmlns CDATA #FIXED ''>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Sat Oct 07 2017 12:40:34 GMT-0500 (Central Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="truck">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="Truck" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="TruckID" type="xs:string"></xs:element>
+                                             <xs:element name="Make" type="xs:string"></xs:element>
+                                             <xs:element name="Year" type="xs:int"></xs:element>
+                                             <xs:element name="Model" type="xs:string"></xs:element>
+                                             <xs:element name="LicensePlateNo" type="xs:string"></xs:element>
+                                             <xs:element name="EmployeeID" type="xs:string"></xs:element>
+                                             <xs:element name="Color" type="xs:string"></xs:element>
+                                             <xs:element name="VIN" type="xs:string"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

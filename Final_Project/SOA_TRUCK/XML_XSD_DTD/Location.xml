@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE location SYSTEM "locations.dtd">
+<locations>
+	<Location>
+		<LocationID>L101</LocationID>
+		<locName>kdrv</locName>
+	    <locationCode>LC101</locationCode>
+	    <isActive>Yes</isActive>
+	    <CustomerID>C101</CustomerID>
+	    <addressstreet1>Prairie</addressstreet1>
+	    <addressstreet2>Shores</addressstreet2>
+	    <city>Chicago</city>
+	    <state>Illinois</state>
+	    <postalCode>60616</postalCode>
+	    <region>South</region>
+	    <location_contact_name>ps</location_contact_name>
+	    <locPhone>987654321</locPhone>
+	    <locFaxNumber>123456789</locFaxNumber>
+	    <locEmail>pshores@gmail.com</locEmail>
+	</Location>
+	<Location>
+		<LocationID>L102</LocationID>
+		<locName>Palo</locName>
+	    <locationCode>LC102</locationCode>
+	    <isActive>Yes</isActive>
+	    <CustomerID>C102</CustomerID>
+	    <addressstreet1>Westmont</addressstreet1>
+	    <addressstreet2>Avenue</addressstreet2>
+	    <city>Palo</city>
+	    <state>California</state>
+	    <postalCode>61612</postalCode>
+	    <region>South</region>
+	    <location_contact_name>pa</location_contact_name>
+	    <locPhone>987654322</locPhone>
+	    <locFaxNumber>123456788</locFaxNumber>
+	    <locEmail>wavenue@gmail.com</locEmail>
+	</Location>
+	<Location>
+		<LocationID>L103</LocationID>
+		<locName>Tampa</locName>
+	    <locationCode>LC103</locationCode>
+	    <isActive>Yes</isActive>
+	    <CustomerID>C103</CustomerID>
+	    <addressstreet1>Rosemont</addressstreet1>
+	    <addressstreet2>Avenue</addressstreet2>
+	    <city>Tampa</city>
+	    <state>Florida</state>
+	    <postalCode>62658</postalCode>
+	    <region>South</region>
+	    <location_contact_name>ta</location_contact_name>
+	    <locPhone>8896651458</locPhone>
+	    <locFaxNumber>2589630147</locFaxNumber>
+	    <locEmail>ravenue@gmail.com</locEmail>
+	</Location>
+</locations>

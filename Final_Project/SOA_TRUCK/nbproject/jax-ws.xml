@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="getComment">
+      <implementation-class>WebServices.getComment</implementation-class>
+    </service>
+    <service name="getMaxTran">
+      <implementation-class>WebServices.getMaxTran</implementation-class>
+    </service>
+    <service name="getCustomer">
+      <implementation-class>WebServices.getCustomer</implementation-class>
+    </service>
+    <service name="getCustomerLocationID">
+      <implementation-class>WebServices.getCustomerLocationID</implementation-class>
+    </service>
+    <service name="getPostalCode">
+      <implementation-class>WebServices.getPostalCode</implementation-class>
+    </service>
+    <service name="getSubQuery">
+      <implementation-class>WebServices.getSubQuery</implementation-class>
+    </service>
+    <service name="getCustomerDetails">
+      <implementation-class>WebServices.getCustomerDetails</implementation-class>
+    </service>
+    <service name="getInnerJoin">
+      <implementation-class>WebServices.getInnerJoin</implementation-class>
+    </service>
+    <service name="getLike">
+      <implementation-class>WebServices.getLike</implementation-class>
+    </service>
+    <service name="getInlineView">
+      <implementation-class>WebServices.getInlineView</implementation-class>
+    </service>
+    <service name="getTransaction">
+      <implementation-class>WebServices.getTransaction</implementation-class>
+    </service>
+    <service name="getAddress">
+      <implementation-class>WebServices.getAddress</implementation-class>
+    </service>
+    <service name="getTruck">
+      <implementation-class>WebServices.getTruck</implementation-class>
+    </service>
+    <service name="getPrice">
+      <implementation-class>WebServices.getPrice</implementation-class>
+    </service>
+    <service name="getPayment">
+      <implementation-class>WebServices.getPayment</implementation-class>
+    </service>
+    <service name="getExpense">
+      <implementation-class>WebServices.getExpense</implementation-class>
+    </service>
+    <service name="getEmployee">
+      <implementation-class>WebServices.getEmployee</implementation-class>
+    </service>
+    <service name="getInvoice">
+      <implementation-class>WebServices.getInvoice</implementation-class>
+    </service>
+    <service name="getPricing">
+      <implementation-class>WebServices.getPricing</implementation-class>
+    </service>
+    <service name="getCommentDetails">
+      <implementation-class>WebServices.getCommentDetails</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>

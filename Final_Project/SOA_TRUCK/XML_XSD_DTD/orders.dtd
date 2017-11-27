@@ -1,0 +1,46 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT orders (Order)+>
+<!ATTLIST orders
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Order (OrderID,OrderDate,CustomerID,EmployeeID,TruckID,
+                 isSpecial,PurchaseOrderNumber,OrderTotalAmount,TransactionID)>
+<!ATTLIST Order
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT OrderID (#PCDATA)>
+<!ATTLIST OrderID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT OrderDate (#PCDATA)>
+<!ATTLIST OrderDate
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CustomerID (#PCDATA)>
+<!ATTLIST CustomerID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT EmployeeID (#PCDATA)>
+<!ATTLIST EmployeeID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TruckID (#PCDATA)>
+<!ATTLIST TruckID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT isSpecial (#PCDATA)>
+<!ATTLIST isSpecial
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PurchaseOrderNumber (#PCDATA)>
+<!ATTLIST PurchaseOrderNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT OrderTotalAmount (#PCDATA)>
+<!ATTLIST OrderTotalAmount
+  xmlns CDATA #FIXED ''>
+  
+<!ELEMENT TransactionID (#PCDATA)>
+<!ATTLIST TransactionID
+  xmlns CDATA #FIXED ''>

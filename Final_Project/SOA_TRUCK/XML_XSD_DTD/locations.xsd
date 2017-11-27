@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Sat Oct 07 2017 12:39:34 GMT-0500 (Central Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="locations">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="Location" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="LocationID" type="xs:string"></xs:element>
+                                             <xs:element name="locName" type="xs:string"></xs:element>
+                                             <xs:element name="locationCode" type="xs:string"></xs:element>
+                                             <xs:element name="isActive" type="xs:string"></xs:element>
+                                             <xs:element name="CustomerID" type="xs:string"></xs:element>
+                                             <xs:element name="addressstreet1" type="xs:string"></xs:element>
+                                             <xs:element name="addressstreet2" type="xs:string"></xs:element>
+                                             <xs:element name="city" type="xs:string"></xs:element>
+                                             <xs:element name="state" type="xs:string"></xs:element>
+                                             <xs:element name="postalCode" type="xs:int"></xs:element>
+                                             <xs:element name="region" type="xs:string"></xs:element>
+                                             <xs:element name="location_contact_name" type="xs:string"></xs:element>
+                                             <xs:element name="locPhone" type="xs:int"></xs:element>
+                                             <xs:element name="locFaxNumber" type="xs:int"></xs:element>
+                                             <xs:element name="locEmail" type="xs:string"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

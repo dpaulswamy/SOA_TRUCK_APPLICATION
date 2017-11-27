@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE order SYSTEM "orders.dtd">
+<orders>
+	<Order>
+		<OrderID>ORD101</OrderID>
+		<OrderDate>2015-12-25</OrderDate>
+		<CustomerID>C101</CustomerID>
+		<EmployeeID>EP101</EmployeeID>
+		<TruckID>T101</TruckID>
+		<isSpecial>Yes</isSpecial>
+		<PurchaseOrderNumber>PO101</PurchaseOrderNumber>
+		<OrderTotalAmount>1500</OrderTotalAmount>
+		<TransactionID>TRNX101</TransactionID>
+	</Order>
+	<Order>
+		<OrderID>ORD102</OrderID>
+		<OrderDate>2016-01-15</OrderDate>
+		<CustomerID>C102</CustomerID>
+		<EmployeeID>EP102</EmployeeID>
+		<TruckID>T102</TruckID>
+		<isSpecial>Yes</isSpecial>
+		<PurchaseOrderNumber>PO102</PurchaseOrderNumber>
+		<OrderTotalAmount>2500</OrderTotalAmount>
+		<TransactionID>TRNX102</TransactionID>
+	</Order>
+	<Order>
+		<OrderID>ORD103</OrderID>
+		<OrderDate>2016-03-20</OrderDate>
+		<CustomerID>C103</CustomerID>
+		<EmployeeID>EP103</EmployeeID>
+		<TruckID>T103</TruckID>
+		<isSpecial>Yes</isSpecial>
+		<PurchaseOrderNumber>PO103</PurchaseOrderNumber>
+		<OrderTotalAmount>3500</OrderTotalAmount>
+		<TransactionID>TRNX103</TransactionID>
+	</Order>
+</orders>

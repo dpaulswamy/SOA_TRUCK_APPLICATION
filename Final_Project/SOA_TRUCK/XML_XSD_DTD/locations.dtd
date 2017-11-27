@@ -1,0 +1,72 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT locations (Location)+>
+<!ATTLIST locations
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Location (LocationID,locName,locationCode,isActive,CustomerID,
+                    addressstreet1,addressstreet2,city,state,postalCode,
+                    region,location_contact_name,locPhone,locFaxNumber,
+                    locEmail)>
+<!ATTLIST Location
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT LocationID (#PCDATA)>
+<!ATTLIST LocationID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locName (#PCDATA)>
+<!ATTLIST locName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locationCode (#PCDATA)>
+<!ATTLIST locationCode
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT isActive (#PCDATA)>
+<!ATTLIST isActive
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CustomerID (#PCDATA)>
+<!ATTLIST CustomerID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT addressstreet1 (#PCDATA)>
+<!ATTLIST addressstreet1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT addressstreet2 (#PCDATA)>
+<!ATTLIST addressstreet2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT city (#PCDATA)>
+<!ATTLIST city
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT state (#PCDATA)>
+<!ATTLIST state
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT postalCode (#PCDATA)>
+<!ATTLIST postalCode
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT region (#PCDATA)>
+<!ATTLIST region
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT location_contact_name (#PCDATA)>
+<!ATTLIST location_contact_name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locPhone (#PCDATA)>
+<!ATTLIST locPhone
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locFaxNumber (#PCDATA)>
+<!ATTLIST locFaxNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT locEmail (#PCDATA)>
+<!ATTLIST locEmail
+  xmlns CDATA #FIXED ''>

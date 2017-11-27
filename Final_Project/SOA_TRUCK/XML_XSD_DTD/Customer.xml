@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE customer SYSTEM "customers.dtd">
+<customers>
+	<Customer>
+		<CustomerID>C104</CustomerID>
+		<CustomerTitle>Mr</CustomerTitle>
+		<BusinessName>SmallBusiness</BusinessName>
+		<LocationID>L101</LocationID>
+		<BillingAddress>2801 South King drive apt 1815</BillingAddress>
+		<City>Chicago</City>
+		<State>IL</State>
+		<PostalCode>60616</PostalCode>
+		<Country>USA</Country>
+		<PhoneNumber>3128664434</PhoneNumber>
+		<CellNumber>3128664434</CellNumber>
+		<OtherNumber>3128664434</OtherNumber>
+		<FaxNumber>3128664434</FaxNumber>
+		<EmailAddress>smallbusiness@gmail.com</EmailAddress>
+		<CompanyName>BusinessBank</CompanyName>
+		<ContactName>Deepak</ContactName>
+		<AlternateContactName>Deepak</AlternateContactName>
+		<DateEntered>2017-10-04</DateEntered>
+		<CustomerType>Private</CustomerType>
+	</Customer>
+	<Customer>
+		<CustomerID>C102</CustomerID>
+		<CustomerTitle>Ms</CustomerTitle>
+		<BusinessName>LocalBusiness</BusinessName>
+		<LocationID>L102</LocationID>
+		<BillingAddress>2951 Westmont ave apt 1109</BillingAddress>
+		<City>Palo</City>
+		<State>CA</State>
+		<PostalCode>61612</PostalCode>
+		<Country>USA</Country>
+		<PhoneNumber>3125390204</PhoneNumber>
+		<CellNumber>3125390204</CellNumber>
+		<OtherNumber>3125390204</OtherNumber>
+		<FaxNumber>3125390204</FaxNumber>
+		<EmailAddress>localbusiness@gmail.com</EmailAddress>
+		<CompanyName>LocalBank</CompanyName>
+		<ContactName>Samata</ContactName>
+		<AlternateContactName>Samata</AlternateContactName>
+		<DateEntered>2017-03-27</DateEntered>
+		<CustomerType>Public</CustomerType>
+	</Customer>
+	<Customer>
+		<CustomerID>C103</CustomerID>
+		<CustomerTitle>Mr</CustomerTitle>
+		<BusinessName>LargeBusiness</BusinessName>
+		<LocationID>L103</LocationID>
+		<BillingAddress>2851 Rosemont ave apt 2015</BillingAddress>
+		<City>Tampa</City>
+		<State>FL</State>
+		<PostalCode>62658</PostalCode>
+		<Country>USA</Country>
+		<PhoneNumber>3256987784</PhoneNumber>
+		<CellNumber>3256987784</CellNumber>
+		<OtherNumber>3256987784</OtherNumber>
+		<FaxNumber>3256987784</FaxNumber>
+		<EmailAddress>largebusiness@gmail.com</EmailAddress>
+		<CompanyName>NationalBank</CompanyName>
+		<ContactName>Sagar</ContactName>
+		<AlternateContactName>Sagar</AlternateContactName>
+		<DateEntered>2017-03-27</DateEntered>
+		<CustomerType>Public</CustomerType>
+	</Customer>
+</customers>
